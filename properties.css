@@ -1,0 +1,58 @@
+{/* main */
+
+    color: red|rgb(255,255,255)|rgba(255,255,255,255) /* колір елемента */
+    background-color: red|rgb(255,255,255)|rgba(255,255,255,255) /* колір заднього фону */
+
+}
+
+{/* Text */
+
+    text-align: center|end|left|right|start /* вирівнювання текту по властивості */
+    text-decoration: underline /* підкресення */
+    text-decoration: line-through /* закреслення */
+    text-transform: uppercase|capitalize /* зміни регістру тексту */
+
+}
+
+{/* Fonts */
+    
+    font-weight: bold|100|200|...|900 /* товщина шрифту */
+    font-style: italic|bold| /* стиль шрифту */
+    font-size: 25px /* розмір шрифту */
+}
+
+{/* Box */ /*  *розділення сайту на блоки/
+    * {
+        box-sizing: border-box; /* габарити елементів будуть задаватись такі які відображаються на сайті (з відступами та границею) */
+    }
+}
+
+{/* Inline */ /* наповнення сайту */
+
+}
+
+{/* position */
+/* static, relative, absolute, fixed, inherit */
+    /* відображення елементів за замовчуванням */
+    /* position: static;  */
+
+    /* відображення елементів відносно розташування за замовчуванням */
+    /* position: relative;  */
+    /* здвигає елеиент в ліво від свого попереднього розташування */
+    /* left: 300px;  */
+    /* top: -150px; */
+    /* bottom, top, left, right */
+
+    /* працює тільки якщо в батьківському елементі стоїть "position: relative;" */
+    /* відображає (при умові вище) елемент відносно батьківського блоку, якщо не виконується умова вище, то позиціонується відносно вікна (тега <body> */
+    /* position: absolute; */
+    /* right: 0px */
+
+    /* фіксує елемент на екрані незалежно від прокрутки */
+    /* position: fixed  */
+
+    /* бере властивість позиції в батьківського елемента */
+    /* position: inherit; */
+
+    /* if elements has absolute position: upper element gone be who have bigest property value "z-index: " */
+}

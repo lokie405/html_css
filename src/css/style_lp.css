@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(255, 255, 224);
+}
+.parts {
+    color: red
+}
+p.chapters {
+    font-size: 10pt;
+    
+}
+h1 {
+    font-size: 12pt;
+    text-align: center;
+
+}
+h2{
+    
+    display: block;
+    margin: 30px 0 12px 0;
+    text-align: center;
+}
+.chapters {
+    text-transform: uppercase;
+}
+
+.book_name {
+    font-style: italic;
+}
+.direct_speech {
+    font-style: italic;
+}
